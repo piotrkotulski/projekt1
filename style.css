@@ -132,12 +132,17 @@ h1 {
   height: 100vh;
   background-color: #405d78;
   color: white;
+  flex-direction: column;
+  
+}
+#offer{
+  padding: 0 70px;
 }
 
 .box {
   display: flex;
   background-color: #f1f1f1;
-  width: 148.5px;
+  width: 150px;
   height: 145.35px;
   color: black;
   align-items: center;
@@ -156,11 +161,15 @@ span {
   flex-flow: column wrap;
 }
 .containerInsideThird {
+  width:550px;
   display: flex;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
   gap: 50px;
+  margin: 0 auto;
+  
+  
 }
 .footContainer{
   width:100%;
@@ -172,13 +181,13 @@ span {
   display: flex;
   align-items: center;
   flex-direction:row;
-  
+   
   
     
 }
  .insideFooter{
    padding: 0 70px 0 70px;
-   
+  
     
   } 
 .fab {
@@ -187,11 +196,12 @@ span {
   height:41px;
   color:white;
   
+  
 }
 
 .icons{
   width:100%;
   display:flex;
-  justify-content: flex-end;
+  
     
 }
