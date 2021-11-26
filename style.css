@@ -94,6 +94,12 @@ h1 {
   height: 100vh;
   background-color: #f1f1f1;
 }
+.firstSpec:nth-of-type(odd) {
+  justify-content: left;
+}
+.secondSpec:nth-of-type(even){
+  justify-content: right;
+}
 .specialists {
   display: flex;
   flex-direction: row;
@@ -119,7 +125,10 @@ h1 {
   display: flex;
   width: 600px;
 }
-
+.opisRight{
+  display: flex;
+  text-align: right;
+}
 
 .containerThird {
   display: flex;
