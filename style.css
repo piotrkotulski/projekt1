@@ -92,42 +92,45 @@ h1 {
   font-family: Roboto;
   width: 100%;
   height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1; 
 }
-.specialists:nth-of-type(3n) {
-  justify-content: left;
+.containerInsideSecond {
+  padding: 0 70px 0 70px; 
+  display:flex; 
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .specialists {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 50px;
 }
+
 .firstSpec {
   height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url("https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__480.png");
   background-position: center;
-  
 }
+
 .secondSpec {
   height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url(https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742871__480.png);
-  background-position: center;
+  background-position: center; 
   order:3;
 }
-
 .opis {
   display: flex;
-  width: 600px;
-  
+  width: 600px; 
+}
+.specialists:nth-of-type(even){
+order:0
 }
 .opisRight{
-  display: flex;
   text-align: right;
   
 }
