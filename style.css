@@ -63,14 +63,12 @@ a.firma {
 h1 {
   font-size: 36px;
 }
-
 .firsSecSizing {
   width: 50%;
 }
 .containerInside {
   padding: 0 70px 0 70px;
 }
-
 .button {
   width: 164px;
   height: 40.74px;
@@ -86,7 +84,6 @@ h1 {
   background-color: white;
   transition-duration: 1s;
 }
-
 .containerSecond {
   display: flex;
   font-family: Roboto;
@@ -100,13 +97,15 @@ h1 {
   width: 100%;
   flex-wrap: wrap;
 }
-
 .specialists {
   display: flex;
   flex-direction: row;
   gap: 50px;
 }
-
+.specialists:nth-of-type(even){
+  text-align: right;
+  flex-direction: row-reverse;
+}
 .firstSpec {
   height: 148px;
   aspect-ratio: 1/1;
@@ -114,27 +113,17 @@ h1 {
   background-image: url("https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__480.png");
   background-position: center;
 }
-
 .secondSpec {
   height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url(https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742871__480.png);
   background-position: center; 
-  order:3;
 }
 .opis {
   display: flex;
   width: 600px; 
 }
-.specialists:nth-of-type(even){
-order:0
-}
-.opisRight{
-  text-align: right;
-  
-}
-
 .containerThird {
   display: flex;
   font-family: Roboto;
@@ -147,7 +136,6 @@ order:0
 #offer {
   padding: 0 70px;
 }
-
 .box {
   display: flex;
   background-color: #f1f1f1;
@@ -167,8 +155,7 @@ order:0
 span {
   font-size: 12px;
 }
-.point{
-  
+.point{ 
   width:22px ;
   height: 22px;
   border-radius: 50%;
@@ -176,12 +163,10 @@ span {
   position: absolute;
   top:-11px;
   left:-11px;
-
 }
 .box1 {
   display:flex;
-  flex-flow: column wrap;
-  
+  flex-flow: column wrap; 
 }
 .containerInsideThird {
   width: 550px;
