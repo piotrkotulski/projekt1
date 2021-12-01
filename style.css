@@ -107,14 +107,14 @@ h1 {
   flex-direction: row-reverse;
 }
 .firstSpec {
-  height: 148px;
+  width: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url("https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__480.png");
   background-position: center;
 }
 .secondSpec {
-  height: 148px;
+  width: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url(https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742871__480.png);
