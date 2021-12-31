@@ -148,9 +148,11 @@ h1 {
   transition-property: transform;
   position: relative;
 }
+.box{
+  transition-duration: 1s; 
+}
 .box:hover {
   transform: scale(1.05, 1.05);
-  transition-duration: 1s;
 }
 span {
   font-size: 12px;
