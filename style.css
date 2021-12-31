@@ -123,8 +123,12 @@ h1 {
   background-size: cover;
 }
 .opis {
-  display: flex;
   width: 600px; 
+}
+.bold {
+  max-width: 100%;
+  font-weight: bold;
+  font-size: 18px;
 }
 .containerThird {
   display: flex;
