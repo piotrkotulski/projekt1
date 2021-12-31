@@ -110,15 +110,17 @@ h1 {
   height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-image: url("https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__480.png");
+  background-image: url("https://pixabay.com/get/gd876abf7188b4a58b0f05d6657465efb4b64ce96f6402c5376e40aafda133e75882b9e01076cd9e01caee72a85d5f33db666c686f2fe94d67bacf9faa6be08c8ef5c7e7c2795d43c73550a077dc7a15c_640.jpg");
   background-position: center;
+  background-size: cover;
 }
 .secondSpec {
   height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-image: url(https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742871__480.png);
-  background-position: center; 
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/25/16/01/children-4967808_1280.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .opis {
   display: flex;
