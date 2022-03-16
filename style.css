@@ -154,7 +154,7 @@ h1 {
   transition-property: transform;
   position: relative;
 }
-.box{
+.box {
   transition-duration: 1s; 
 }
 .box:hover {
